@@ -1,0 +1,122 @@
+
+/* archivo main para @edurnecm_ */
+
+/* FUENTES
+CURSIVA --> font-family: 'Halimun', sans-serif 
+TITULO -->  font-family:"monument-extended-regular
+            font-family: "Monument Extended Light"
+TEXTOS -->  font-family: 'Tajawal', sans-serif;  
+
+
+*/
+
+/* PALETA DE COLORES */
+:root{
+
+    --gris1: #c3bcba;
+    --beige: #efeaea;
+    --rosa_botones: #dbbcbc;
+    --gris_textos: #9b9998;
+    --negro:#000000;
+    --blanco:#ffffff;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+html {
+    font-size: 15px;
+}
+  
+  /* FLEX BOX */
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-flow: wrap;
+  
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center ;
+    align-content:center;
+    flex-wrap: wrap;
+}
+
+/* HEADER */
+.imgheader{
+    width: 100%;
+}
+
+/* NAVBAR */
+.nav{
+
+    background-color: var(--gris1);
+    padding: 10px;
+    margin-top: -5px;
+    align-items: center;
+
+}
+.a_navbar{
+    text-decoration: none;
+    color: var(--blanco);
+    font-family: 'Tajawal', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;  
+    width: 10%;
+    margin-top: 4px;
+}
+.a_navbar:hover{
+    color: var(--gris_textos);
+}
+
+/* CONTENEDOR PRINCIPAL HOME */
+.intro{
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+.descrip{
+    padding: 10px;
+    /* propiedad para el espaciadoe ntre lineas */
+    line-height: 1.5;
+}
+.subtitle{
+    color: var( --rosa_botones);
+    padding: 10px;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 1.3rem;
+}
+.texto{
+    color: var(--gris_textos);
+    text-align: center;
+    padding: 10px;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 1rem;
+    
+}
+
+/* FOOTER */
+.footer{
+    padding: 10px;
+    background-color: var(--gris1);
+    margin-top: 60px;
+}
+.footer a{
+    text-decoration: none;
+    color: var(--blanco);
+    text-align: center;
+    cursor: pointer;  
+    width: 3%;
+    margin-top: 4px;
+}
+.img_footer{
+    width: 1.3rem;
+}
